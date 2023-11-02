@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000
 app.use(cors());
 app.use(router)
 app.get('/', (req, res) => {
-    res.send('Hola wawa tio ☝🏼🤓')
+    res.send('Hola tio desde AWS ☝🏼🤓')
 })
 
 
